@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM armv7/armhf-ubuntu:14.04
 MAINTAINER Josh Chaney "josh@chaney.io"
 
 ADD misc/bootstrap.sh /usr/bin/
